@@ -1,11 +1,17 @@
 # DataAnalystProject_SQL_PBI_OlympicGamesAnalysis
 Olympic Games Analysis
 
+## Dataset:
+
+https://www.dropbox.com/s/3sxwx52o3x8ozj7/olympic_games.bak?dl=0
+
 ## Business Problem
 The challenge for this data analyst project is outlined below. This has been used continuously to ensure that the right data has been selected, transformed and used in the data visualization which is meant to be passed on to the business users.
 
 ## Data Collection & Table Structures
 The necessary data was first put into a SQL database and afterwards transformed using the transformations.
+
+![sql](https://user-images.githubusercontent.com/55878755/219423223-6ac39e40-4692-4736-99ed-706bc94da33a.png)
 
 ## Data Model
 Where dimensions and facts have been combined, the data model that is created in Power BI is one table. The query from previous step was loaded in directly.
