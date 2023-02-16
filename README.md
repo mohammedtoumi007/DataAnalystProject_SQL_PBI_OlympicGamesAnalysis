@@ -20,9 +20,9 @@ Where dimensions and facts have been combined, the data model that is created in
 The following calculations were created in the Power BI reports using DAX (Data Analysis Expressions). To lessen the extent of coding, the re-use of measures (measure branching) was emphasized:
 
 Number of Competitors:
--- # of Competitors = DISTINCTCOUNT( ‘Olympic Data'[ID] )
--- # of Medals = COUNTROWS( ‘Olympic Data’ )
--- # Of Medals (Registered) = CALCULATE( [# of Medals], FILTER( ‘Olympic Data’, ‘Olympic Data'[Medal] = “Bronze” || ‘Olympic Data’ [Medal] = “Gold” || ‘Olympic Data'[Medal] = “Silver” ))
+ nb of Competitors = DISTINCTCOUNT( ‘Olympic Data'[ID] )
+ nb of Medals = COUNTROWS( ‘Olympic Data’ )
+ nb Of Medals (Registered) = CALCULATE( [# of Medals], FILTER( ‘Olympic Data’, ‘Olympic Data'[Medal] = “Bronze” || ‘Olympic Data’ [Medal] = “Gold” || ‘Olympic Data'[Medal] = “Silver” ))
 
 ## Olympic Games Analysis Dashboard
 
